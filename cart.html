@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | BIZHUB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-surface">
+    <header class="section-panel position-sticky top-0" style="z-index: 1030;">
+        <nav class="container navbar navbar-expand-lg navbar-light py-2">
+            <a href="ecommerce.html" class="navbar-brand d-flex align-items-center gap-2">
+                <img src="image/logo.png" alt="Logo" class="logo rounded-circle" width="40" height="40">
+                <span>BIZ<span class="logo-title">HUB</span> Shop</span>
+            </a>
+            <div class="ms-auto d-flex gap-2">
+                <a class="btn btn-outline-secondary" href="ecommerce.html">Continue Shopping</a>
+                <a class="btn btn-primary" href="checkout.html">Checkout</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-4">
+        <div class="section-panel mb-4">
+            <h1 class="h3 fw-bold mb-0"><i class="bi bi-cart me-2"></i>Your Cart</h1>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-12 col-lg-8">
+                <div class="section-panel">
+                    <div class="table-responsive">
+                        <table class="table align-middle mb-0">
+                            <thead>
+                                <tr>
+                                    <th>Item</th>
+                                    <th class="text-center">Qty</th>
+                                    <th class="text-end">Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <img src="image/f4.jpg" alt="Item" style="width: 64px; height: 64px;"
+                                                class="rounded">
+                                            <div>
+                                                <div class="fw-semibold">Workflow Starter Kit</div>
+                                                <small class="text-muted">License: Single</small>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <select class="form-select form-select-sm" style="max-width: 90px; margin: 0 auto;">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                        </select>
+                                    </td>
+                                    <td class="text-end fw-semibold">$29</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <img src="image/f5.jpg" alt="Item" style="width: 64px; height: 64px;"
+                                                class="rounded">
+                                            <div>
+                                                <div class="fw-semibold">Analytics Pack</div>
+                                                <small class="text-muted">License: Team</small>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <select class="form-select form-select-sm" style="max-width: 90px; margin: 0 auto;">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                        </select>
+                                    </td>
+                                    <td class="text-end fw-semibold">$49</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="section-panel">
+                    <h4 class="fw-bold mb-3">Summary</h4>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-muted">Subtotal</span>
+                        <span class="fw-semibold">$78</span>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-muted">Tax</span>
+                        <span class="fw-semibold">$6</span>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between mb-3">
+                        <span class="fw-bold">Total</span>
+                        <span class="fw-bold">$84</span>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <a class="btn btn-primary btn-lg" href="checkout.html">Go to Checkout</a>
+                        <a class="btn btn-outline-secondary" href="ecommerce.html">Continue Shopping</a>
+                    </div>
+                    <p class="text-muted small mt-3 mb-0">UI-only demo totals are static.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

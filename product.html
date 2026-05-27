@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | BIZHUB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-surface">
+    <header class="section-panel position-sticky top-0" style="z-index: 1030;">
+        <nav class="container navbar navbar-expand-lg navbar-light py-2">
+            <a href="ecommerce.html" class="navbar-brand d-flex align-items-center gap-2">
+                <img src="image/logo.png" alt="Logo" class="logo rounded-circle" width="40" height="40">
+                <span>BIZ<span class="logo-title">HUB</span> Shop</span>
+            </a>
+            <div class="ms-auto d-flex gap-2">
+                <a class="btn btn-outline-secondary" href="ecommerce.html">Back</a>
+                <a class="btn btn-primary" href="cart.html"><i class="bi bi-cart me-2"></i>Cart</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-4">
+        <div class="row g-4">
+            <div class="col-12 col-lg-6">
+                <img src="image/f4.jpg" class="img-fluid" alt="Product image">
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="section-panel">
+                    <h1 class="h3 fw-bold mb-2">Workflow Starter Kit</h1>
+                    <p class="text-muted">A UI pack that includes automation cards, status badges, and table layouts.</p>
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <span class="display-6 fw-bold text-primary mb-0">$29</span>
+                        <span class="badge bg-success">In stock</span>
+                    </div>
+                    <div class="row g-3 mb-3">
+                        <div class="col-6">
+                            <label class="form-label" for="qty">Quantity</label>
+                            <select id="qty" class="form-select">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </div>
+                        <div class="col-6">
+                            <label class="form-label" for="license">License</label>
+                            <select id="license" class="form-select">
+                                <option>Single</option>
+                                <option>Team</option>
+                                <option>Enterprise</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="d-grid d-sm-flex gap-2">
+                        <a class="btn btn-primary btn-lg" href="cart.html">Add to Cart</a>
+                        <a class="btn btn-outline-secondary btn-lg" href="checkout.html">Buy Now</a>
+                    </div>
+                    <hr>
+                    <ul class="list-unstyled mb-0">
+                        <li class="py-2 border-bottom"><i class="bi bi-check-circle-fill text-primary me-2"></i>Bootstrap 5
+                            compatible</li>
+                        <li class="py-2 border-bottom"><i class="bi bi-check-circle-fill text-primary me-2"></i>Responsive
+                            layout</li>
+                        <li class="py-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Clean typography</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
