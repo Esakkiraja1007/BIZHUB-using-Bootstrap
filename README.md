@@ -93,7 +93,6 @@ git clone <your-github-repository-url>
 <img width="1042" height="870" alt="Screenshot 2026-07-12 073151" src="https://github.com/user-attachments/assets/7ad32d90-3b93-4bea-9026-57fa637f6d07" />
 
 
-=======
 
 
 ## 🎯 Future Improvements
