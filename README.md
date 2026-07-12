@@ -5,8 +5,6 @@ A modern and responsive e-commerce website built using HTML5, CSS3, Bootstrap 5,
 ## 🌐 Live Demo
 
 bizhub-using-bootstrap.vercel.app
-
-
 ---
 
 ## ✨ Features
@@ -76,20 +74,18 @@ git clone <your-github-repository-url>
 ## 📸 Screenshots
 
 Add screenshots of:
-
 * Home Page
-![alt text](image.png)
+<img width="1902" height="867" alt="Screenshot 2026-07-12 072851" src="https://github.com/user-attachments/assets/6e857d9e-b48a-4028-852d-f7526911fdd8" />
 * Product Page
-![alt text](image-1.png)
+<img width="1907" height="857" alt="Screenshot 2026-07-12 072954" src="https://github.com/user-attachments/assets/3f3cf8f0-24d2-4a81-8fe8-b0495b33496a" />
 * Pricing Page
-![alt text](image-2.png)
+<img width="1912" height="866" alt="Screenshot 2026-07-12 073017" src="https://github.com/user-attachments/assets/e0b0b256-7b35-4cbc-9d7e-f05762afe0f9" />
 * Login Page
-![alt text](image-3.png)
+<img width="1912" height="858" alt="Screenshot 2026-07-12 073039" src="https://github.com/user-attachments/assets/fb6b488a-253e-4c61-893d-59f48b379384" />
 * Dashboard
-![alt text](image-4.png)
+<img width="1903" height="857" alt="Screenshot 2026-07-12 073056" src="https://github.com/user-attachments/assets/e8bd7e8e-6c63-4fa4-9d58-c5a692cb7159" />
 * Mobile View
-![alt text](image-5.png)
-
+<img width="1042" height="870" alt="Screenshot 2026-07-12 073151" src="https://github.com/user-attachments/assets/7ad32d90-3b93-4bea-9026-57fa637f6d07" />
 ---
 
 ## 🎯 Future Improvements
