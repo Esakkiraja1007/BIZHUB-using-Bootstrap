@@ -113,7 +113,7 @@ git clone <your-github-repository-url>
 
 **Esakki Raja**
 
-* LinkedIn: https://www.linkedin.com/in/esakki-raja-30244824b
+* LinkedIn: www.linkedin.com/in/esakki-raja1015
 * GitHub: https://github.com/Esakkiraja1007
 
 ---
